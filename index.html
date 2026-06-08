@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting to Shopee...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to Shopee...</title>
 
-    <!-- ============================================================
-         CRITICAL FOR FACEBOOK DESKTOP/MOBILE FEED PREVIEW (OG TAGS)
-         ============================================================ -->
-    <!-- The exact text that will show as the bold headline in the FB post preview -->
-    <meta property="og:title" content="🔥 Check out this item on Shopee! | Exclusive Deal" />
-    <meta property="og:description" content="Click here to view product specifications, customer reviews, and discount vouchers directly on the Shopee app." />
-    <meta property="og:image" content="https://i.imgur.com/Trks8ZO.png" />
-    <meta property="og:url" content="https://kaalamanngbayan.github.io/index.html" />
-    <meta property="og:type" content="website" />
+  <!-- Open Graph tags for Facebook preview -->
+  <meta property="og:title" content="🔥 Check out this item on Shopee! | Exclusive Deal" />
+  <meta property="og:description" content="Click here to view product specifications, customer reviews, and discount vouchers directly on the Shopee app." />
+  <meta property="og:image" content="https://i.imgur.com/Trks8ZO.png" />
+  <meta property="og:url" content="https://kaalamanngbayan.github.io/index.html" />
+  <meta property="og:type" content="website" />
 
+  <!-- Twitter card for wide preview -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- JavaScript redirect (so FB crawler only sees OG tags, not Shopee’s page) -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://s.shopee.ph/BRH9Ao6om";
+    }, 4000);
+  </script>
     
-    <!-- Ensures Facebook renders a large widescreen image box rather than a small square square thumbnail -->
-    <meta name="twitter:card" content="summary_large_image" />
-
-    <!-- Fallback automatic refresh meta tag (Runs only if JavaScript is entirely disabled in the browser) -->
-    <meta http-equiv="refresh" content="4;url=https://s.shopee.ph/BRH9Ao6om">
-
     <style>
         * {
             box-sizing: border-box;
